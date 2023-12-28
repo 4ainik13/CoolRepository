@@ -18,6 +18,7 @@ public class CounterTest {
         Counter ctr = new Counter();
         ctr.reset();
         assertEquals(0, ctr.getValue());
+        //assertEquals(0, 0)?
     }
 
 }
